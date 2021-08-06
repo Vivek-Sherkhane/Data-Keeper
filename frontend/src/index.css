@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Uchen&display=swap");
+/* body {
+  background-color: #e1e5ea;
+} */
+.form {
+  max-width: 25rem;
+  margin: 0 auto;
+}
+
+.form > div {
+  display: flex;
+  flex-direction: column;
+  margin: 1.5rem;
+}
+
+.form label {
+  margin: 1rem 0;
+  display: inline-block;
+}
+
+input,
+select,
+textarea,
+button {
+  padding: 0.8rem;
+  border: 0.1rem #a4a4a4 solid;
+  border-radius: 0.5rem;
+  font-family: Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1.6rem;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: #33a4ff;
+  font-size: 100px;
+}
+
+button:hover {
+  background-color: #255aec;
+}
+
+.form-box {
+  box-shadow: rgba(0, 0, 0, 0.24) 1px 3px 8px 2px;
+  width: 35vw;
+  height: 27rem;
+  margin: 5rem auto;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 0rem;
+  background-color: #fff;
+}
+
+.admin-navbar-item,
+.main-nav-item {
+  color: black;
+  text-decoration: none;
+  width: 100%;
+}
+
+.admin-navbar-item :hover {
+  color: white;
+  text-decoration: none;
+}
+
+.loading {
+  display: block !important;
+}
+.success {
+  color: #20a020;
+}
+.danger {
+  color: #a02020;
+}
+
+.close-icon {
+  cursor: pointer;
+}
+
+.message-box {
+  border: 0.1rem solid transparent;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  font-size: 0.75rem;
+}
+.alert-info {
+  color: #2020a0;
+  background-color: #e0e0ff;
+}
+.alert-danger {
+  color: #a02020;
+  background-color: #ffe0e0;
+}
+
+.navigation-bar {
+  /* height: 100%; */
+  /* display:inline-block;*/
+  /* height: 90vh; */
+  min-height: 500px;
+  min-width: 10px;
+  margin-left: -1.5rem;
+}
+.navbar-container {
+  margin-top: -110%;
+}
+
+.homeHelperContainer {
+  display: flex;
+  justify-content: space-between;
+  height: 12%;
+  width: 100%;
+  border-bottom: 1px solid black;
+  padding: 1rem;
+}
+
+.form-control:active,
+.form-control:focus,
+.form-control:focus:active {
+  border-color: #04222e33;
+  color: white;
+}
+
+.attendence-table-row:hover {
+  background-color: #f6f6f6;
+}
+
+.card {
+  /* border: 0.1rem #c0c0c0 solid; */
+  background-color: #f8f8f8;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  cursor: pointer;
+}
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 5px 1px;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.card-body > * {
+  margin-bottom: 0.5rem;
+}
+
+img.medium {
+  max-width: 29rem;
+  width: 100%;
+  border-bottom: 1px solid gray;
+  border-top-left-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+}
+
+table > tbody > tr {
+  border-bottom: 0.5px solid gray;
+  margin: 10px 0;
+  padding: 10px 0;
+}
+
+.login-div {
+  height: 50%;
+  width: 100%;
+  border-right: 1px solid gray;
+  margin-top: 20%;
+}
+
+.form-container {
+  background-color: #f7f7f7;
+  height: 100vh;
+}
+
+.card-link {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  color: black;
+}
+
+@media print {
+  .hide-print {
+    display: none;
+  }
+}
+
+/* @media only screen and (min-width: 992px) {
+  .navbar {
+    box-sizing: border-box;
+  }
+} */
+
+.landing-div {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+  width: 100vw;
+  height: 92vh;
+  overflow: hidden;
+}
+
+.text-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
+#tagline {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 25px;
+}
+
+#main-tag {
+  font-family: "Uchen", serif;
+  font-size: 60px;
+}
+/* 
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav {
+    margin-left: 50%;
+  }
+}*/
+
+.header {
+  z-index: 999;
+  position: fixed;
+  width: 100vw;
+  /* height: 11vh; */
+  background-color: #fff;
+}
+
+.active-link {
+  background-color: #fff !important;
+  color: black !important;
+  width: 100%;
+}
+
+.active-link :hover {
+  color: black !important;
+}

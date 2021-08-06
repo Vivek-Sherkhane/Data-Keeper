@@ -1,0 +1,26 @@
+{
+  "name": "college-management-system",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "convert-excel-to-json": "^1.7.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "express-fileupload": "^1.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.12",
+    "read-excel-file": "^5.2.4",
+    "validator": "^13.6.0",
+    "xlsx": "^0.17.0"
+  }
+}
